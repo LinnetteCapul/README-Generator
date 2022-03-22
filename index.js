@@ -92,3 +92,8 @@ inquirer
   * GitHub Username: ${data.username}
   * Contact Info: ${data.email}`
   
+  fs.writeFile("README.md", readme, (err) =>
+  err ? console.log(err) : console.log("README Generated Successfully!")
+);
+
+});
