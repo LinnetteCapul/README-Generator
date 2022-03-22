@@ -52,3 +52,43 @@ inquirer
      }
      
     ])
+    .then((data) => {
+
+      const readme = 
+  `# 📖 ${data.title}
+  
+  ![license](https://img.shields.io/static/v1?label=license&message=${data.license}&color=success)
+  
+  ## Description
+  
+  ${data.description}
+  
+  ## Table of Contents
+  
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contribution Guidelines](#contribution guidelines)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  
+  ## Installation
+  
+  ${data.installation}
+  
+  ## Usage
+  
+  ${data.usage}
+  
+  ## Contribution Guidelines
+  
+  ${data.contribution}
+  
+  ## Tests
+  
+  ${data.tests}
+  
+  ## Questions?
+  
+  * GitHub Username: ${data.username}
+  * Contact Info: ${data.email}`
+  
