@@ -57,6 +57,8 @@ inquirer
       const readme = 
   `# 📖 ${data.title}
   
+  ## License
+
   ![license](https://img.shields.io/static/v1?label=license&message=${data.license}&color=success)
   
   ## Description
@@ -89,8 +91,10 @@ inquirer
   
   ## Questions?
   
-  * GitHub Username: ${data.username}
-  * Contact Info: ${data.email}`
+  Please contact me at either of the following for any inquiries about the project.
+
+  * GitHub Profile: https://github.com/${data.username}
+  * Email: ${data.email}`
   
   fs.writeFile("README.md", readme, (err) =>
   err ? console.log(err) : console.log("README Generated Successfully!")

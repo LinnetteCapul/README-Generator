@@ -1,30 +1,32 @@
 # 📖 README Generator
   
-  ![license](https://img.shields.io/static/v1?label=license&message=MIT&color=success)
+  ## License
+  
+  ![license](https://img.shields.io/static/v1?label=license&message=Boost&color=success)
   
   ## Description
   
-  A command-line application that allows users to input information about their project into a README form to generate a README file
+  Command-line application that is able to generate a README file including the user's input in the corresponding sections
   
   ## Table of Contents
   
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contribution Guidelines](#contribution guidelines)
+  * [Contribution Guidelines](#contribution-guidelines)
   * [Tests](#tests)
   * [Questions](#questions)
   
   ## Installation
   
-  still pending
+  TBA
   
   ## Usage
   
-  This command-line application can be used within the terminal allowing the user to fill in their responses to the corresponding sections of the README
+  To increase efficiency when creating a README and spend more time working on the project itself
   
   ## Contribution Guidelines
   
-  Please reach out to the original developer of this project. Their contact info can be found below.
+  Contribution guidelines can be found by contacting original developer. Contact info can be found down below.
   
   ## Tests
   
@@ -32,5 +34,7 @@
   
   ## Questions?
   
-  * GitHub Username: LinnetteCapul
-  * Contact Info: linnette.capul@gmail.com
+  Please contact me at either of the following for any inquiries about the project.
+
+  * GitHub Username: https://github.com/LinnetteCapul
+  * Email: linnette.capul@gmail.com
