@@ -1,7 +1,8 @@
+// Packages required for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-
+// Array of questions prompted for user input in terminal
 inquirer
     .prompt([
      {
@@ -28,12 +29,12 @@ inquirer
         type: "list",
         name: "license",
         message: "Please state any licenses involved in this project.",
-        choices: ["Apache2.0", "Boost", "BSD 3-Clause", "MIT"],
+        choices: ["Apache2.0", "Boost", "BSD 3-Clause", "MIT", "none"],
      },
      {
         type: "input",
         name: "contribution",
-        message: "Please state the guidelines as to how other people can contribute this project.",
+        message: "Please state the guidelines as to how other people can contribute to this project.",
      },
      {
         type: "input",
@@ -54,7 +55,8 @@ inquirer
     ])
     .then((data) => {
 
-      const readme = 
+// README outline for application
+const readme = 
   `# 📖 ${data.title}
   
   ## License
@@ -93,9 +95,10 @@ inquirer
   
   Please contact me at either of the following for any inquiries about the project.
 
-  * GitHub Profile: https://github.com/${data.username}
+  * GitHub Profile: [${data.username}](https://github.com/${data.username})
   * Email: ${data.email}`
   
+// Function that will generate README file with user input
   fs.writeFile("README.md", readme, (err) =>
   err ? console.log(err) : console.log("README Generated Successfully!")
 );
