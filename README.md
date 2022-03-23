@@ -26,7 +26,7 @@
 
  * Application Link: https://linnettecapul.github.io/README-Generator/
 
- * Demonstration Video: https://drive.google.com/file/d/1PZr9TyO0hzU3ydA0lRfzbMolgbejJtaZ/view
+ * Demonstration Video: https://drive.google.com/file/d/1PZr9TyO0hzU3ydA0lRfzbMolgbejJtaZ/view?usp=sharing
   
   ## Installation
   
@@ -34,11 +34,11 @@
   
   ## Usage
   
-    When the user runs `node index.js`, the application will prompt the user questions in the command line to fill out each section of a standard README file. This application can be used to save time on creating a README from scratch and more time spent on the project itself.
+  When the user runs `node index.js`, the application will prompt the user questions in the command line to fill out each section of a standard README file. This application can be used to save time on creating a README from scratch and more time spent on the project itself.
   
   ## Contribution Guidelines
   
-    For details on how to contribute to this project, please reach out to the original creator of the project. Contact information can be found under “Questions?” section.
+  For details on how to contribute to this project, please reach out to the original creator of the project. Contact information can be found under “Questions?” section.
   
   ## Tests
   
@@ -54,9 +54,9 @@
   ## Screenshots
   
   ![readme-generator-screenshot01](https://raw.githubusercontent.com/LinnetteCapul/README-Generator/main/images/readme-generator-screenshot01.jpg)
-  Demonstration of README Generator application being used with questions prompted and ability to fill in the corresponding information to project.
+  Demonstration of README Generator application being used with questions prompted in terminal and ability to fill in the corresponding information to project.
   
-  <br><br>
+  <br>
   
   ![readme-generator-screenshot02](https://raw.githubusercontent.com/LinnetteCapul/README-Generator/main/images/readme-generator-screenshot02.jpg)
   Generated README file in preview viewing showing user's responses to the corresponding sections.
